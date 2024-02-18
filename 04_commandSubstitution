@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Command Substitution"
+echo " "
+
+# current_directory=`pwd`
+# echo "Present Working Directory is:" $current_directory
+
+# current_directory=$(pwd)
+# echo "Present Working Directory is:" $current_directory
+
+newFile=`cat > hello.txt`
+echo $newFile

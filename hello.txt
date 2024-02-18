@@ -1,0 +1,3 @@
+hello.txt file has been creaated from command substitution.
+
+
